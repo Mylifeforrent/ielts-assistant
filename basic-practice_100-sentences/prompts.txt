@@ -1,0 +1,34 @@
+以下是我的雅思写作练习题和对应的作答， 请根据每道题的中文内容来判断我对应的英文回答是不是正确的，以及是不是有语法错误， 请把正确的答案给到我，并把语法错误的解释也给到我，
+
+语法解释可以用中文回答，
+
+回答的结构可以这样
+
+**题目1:** 政府应该给一些城市提供资金去保护历史建筑
+- **我的回答：** the government should provide should provide some cities with funding to protect historical building
+- **语法以及语义错误分析：**
+  1. **重复词语**：`should provide` 写了两次，属于笔误。
+  2. **名词单复数**：`historical building` 泛指此类建筑，应用复数 `buildings`。
+  3. **大小写**：句首字母 `t` 需要大写。
+- **修正之后的句子：** The government should provide some cities with funding to protect historical buildings.
+- **更加推荐的回答：** The government should subsidize some cities to preserve historic buildings.
+
+回答的内容可以是markdown语法，并且该加粗的地方进行加粗,你的回答可以给予我的文件名创建一个新的文件，然后把回答内容保存到这个新文件中
+
+
+
+
+这是一个非常好的习惯！为了确保下次对话我能无缝衔接你的进度，我为你创建了一个**“启动口令文件”**：
+
+文件位置：IELTS_CONTEXT_PROMPT.md
+
+如何使用： 下次开启新对话时，你只需要发这一句话：
+
+“请读取当前目录下的 IELTS_CONTEXT_PROMPT.md 开始辅导。”
+
+这个文件告诉了新 Agent 什么？
+
+你的身份：IELTS 写作教练 (Coach Persona)。
+必读文件：强制它先读 GUIDE_TO_PRACTICE.md（了解流程）和 ielts_practice_100.md（了解题库）。
+追踪进度：指示它去扫描 practice_logs/ 和 reviews/ 下的最新文件，这样它立刻就知道你上次练到了哪里，最常犯什么错。
+这样你就不需要重复解释背景，就像有了一个永久记忆的私人教练一样。

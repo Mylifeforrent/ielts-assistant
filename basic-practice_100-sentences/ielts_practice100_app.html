@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS 100 Sentences Practice</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --text: #1e293b;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+            padding-bottom: 80px; /* Space for footer */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .controls {
+            background: var(--surface);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            position: sticky;
+            top: 10px;
+            z-index: 100;
+        }
+        select {
+            padding: 8px 12px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #cbd5e1;
+        }
+        .question-card {
+            background: var(--surface);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .q-header {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .q-num {
+            color: var(--primary);
+        }
+        .chinese-text {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 4px solid #e2e8f0;
+        }
+        textarea {
+            width: 100%;
+            height: 80px;
+            padding: 10px;
+            margin-top: 15px;
+            border: 1px solid #cbd5e1;
+            border-radius: 4px;
+            font-family: inherit;
+            resize: vertical;
+            box-sizing: border-box; 
+        }
+        textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+        }
+        details {
+            background-color: #f1f5f9;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        summary {
+            font-weight: 500;
+            color: #64748b;
+        }
+        .fab-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--surface);
+            padding: 15px;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: center;
+            border-top: 1px solid #e2e8f0;
+        }
+        .btn {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background-color: #1d4ed8;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>IELTS Writing 100 Sentences</h1>
+    </header>
+
+    <div class="controls">
+        <label for="set-select">Choose Practice Set: </label>
+        <select id="set-select" onchange="renderQuestions()">
+            <!-- Options populated by JS -->
+        </select>
+    </div>
+
+    <div id="questions-container">
+        <!-- Questions populated by JS -->
+    </div>
+</div>
+
+<div class="fab-footer">
+    <button class="btn" onclick="exportMarkdown()">📥 Export Answers to Markdown</button>
+</div>
+
+<script>
+    const practiceSets = [{"name": "Set 1 (Q01-Q20)", "start": 1, "end": 20, "questions": [{"id": 1, "chinese": "经常做运动会提高人的自信。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Exercise regularly / Regular exercise\n*   Boost one’s confidence / Increase one’s confidence\n</details>"}, {"id": 2, "chinese": "教学质量对学生成绩有很大的影响。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Standard of education / Quality of teaching\n*   Have an enormous impact on / make a huge difference to\n*   Improve academic performance / Improve grades\n</details>"}, {"id": 3, "chinese": "家长和老师应该努力去减少小孩看电视的时间。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Screen time\n</details>"}, {"id": 4, "chinese": "经济的下滑导致失业率的上升。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Economic slowdown / economic downturn / economic recession\n*   Unemployment rate\n</details>"}, {"id": 5, "chinese": "经济的发展需要年轻的劳动者。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Economic growth / economic development\n*   Labor force / a young workforce\n</details>"}, {"id": 6, "chinese": "工作很多的人没有时间去休息。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   A heavy workload / overloaded with work / busy with work\n</details>"}, {"id": 7, "chinese": "在中国，很多学生晚上都要自习。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Learn by themselves / self-study / self-education\n</details>"}, {"id": 8, "chinese": "文化遗址因为城市发展而受到威胁。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Heritage sites / historic buildings / cultural sites\n*   Posed a threat to / under threat\n</details>"}, {"id": 9, "chinese": "我们不能够忽视面对面的交流。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Face-to-face communication\n</details>"}, {"id": 10, "chinese": "有些公共服务很难做到收支平衡。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Public services / essential services\n*   Break even\n</details>"}, {"id": 11, "chinese": "我们需要考虑社会和经济的环境。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   The social and economic context\n*   The economic climate\n</details>"}, {"id": 12, "chinese": "密度种植对生物多样性造成了威胁。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Intensive farming\n*   Species diversity / biodiversity\n</details>"}, {"id": 13, "chinese": "平等接受教育的机会能够帮助学生解决成绩不好的问题。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Equal access to education\n*   Poor grades / poor performance / educational underachievement\n</details>"}, {"id": 14, "chinese": "接触不同的文化可以促进创新。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Exposure to different cultures\n*   Foster innovation / Encourage creativity\n</details>"}, {"id": 15, "chinese": "政府应该重视社会福利，尤其是医疗服务。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Welfare services\n*   Healthcare / medical care\n</details>"}, {"id": 16, "chinese": "教育或许决定了人的工作前景。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Hold the key to sth\n*   Job prospects / career prospects\n</details>"}, {"id": 17, "chinese": "使用化石资源会对环境会造成破坏。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Fossil fuels\n*   Cause damage to the environment / cause environmental destruction\n</details>"}, {"id": 18, "chinese": "建造住宅楼有助于解决城市的拥堵问题。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Apartment blocks / residential buildings\n</details>"}, {"id": 19, "chinese": "贫穷的人可以通过努力工作来提高其社会地位。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   From disadvantaged backgrounds / of low socio-economic status\n*   Improve their social status\n</details>"}, {"id": 20, "chinese": "因为全球化，人们需要和来自不同背景的人一起工作。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Diverse backgrounds\n</details>"}]}, {"name": "Set 2 (Q21-Q40)", "start": 21, "end": 40, "questions": [{"id": 21, "chinese": "我们需要采取措施去解决一些棘手的问题。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Take action / take steps\n*   Intractable problems / Thorny problems\n</details>"}, {"id": 22, "chinese": "媒体通过夸大受害者的伤痛去吸引观众。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Attract public attention / attract viewers / increase ratings\n*   Sensationalise suffering\n</details>"}, {"id": 23, "chinese": "基因工程让人们能培育新品种农作物。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Nurture crop varieties\n</details>"}, {"id": 24, "chinese": "公司应该给有子女的女员工提供产假和其他帮助。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Working mothers / female employees with children\n*   Maternity leave\n</details>"}, {"id": 25, "chinese": "不健康的生活习惯让人们处于生病的危险之中。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   An unhealthy lifestyle\n*   Put people at risk of illness / pose health risks\n</details>"}, {"id": 26, "chinese": "奖学金可以鼓励更多的学生去学习研究生课程。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Government grants\n*   Take postgraduate courses\n</details>"}, {"id": 27, "chinese": "社区改造为罪犯提供了获得职业技能的机会。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Community service\n*   Acquire transferable skills / job skills / vocational skills\n</details>"}, {"id": 28, "chinese": "法律应该将醉驾判定为刑事犯罪。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Drink driving\n*   Criminal offence\n</details>"}, {"id": 29, "chinese": "乡村地区给人们提供机会去远离现代生活的压力和噪音。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Rural areas\n*   Escape pressure\n*   Modern life\n</details>"}, {"id": 30, "chinese": "人口老龄化促使国家去提高法定退休年龄。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Ageing population\n*   Raise the statutory retirement age\n</details>"}, {"id": 31, "chinese": "信息科技的发展让人们可以在家里上课。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Communication technology\n*   Attend lessons / take classes\n</details>"}, {"id": 32, "chinese": "学校应该允许老师强制捣蛋的小孩离开教室。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Use force to do sth\n*   Disruptive children / unruly children\n</details>"}, {"id": 33, "chinese": "农村的失业问题在某种程度上可以通过城乡转移来解决。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Rural areas / rural communities\n*   The rural-to-urban shift\n</details>"}, {"id": 34, "chinese": "高层建筑有时候被认为是城市里的碍眼之物。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   High-rise buildings / tower blocks\n*   Eyesores of the city\n</details>"}, {"id": 35, "chinese": "太空科技的投资应该获得政府的支持。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Space technology\n*   Government spending / government funding\n</details>"}, {"id": 36, "chinese": "历史文物因为其历史重要性而被保存。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Business opportunities (注：此处对应36题原文提及)\n*   Artefacts / Historic relics\n*   Historical significance\n</details>"}, {"id": 37, "chinese": "学校活动的设置要让孩子体会到成就感和提升他们的幸福感。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   School activities\n*   A sense of accomplishment\n*   A sense of happiness / well-being\n</details>"}, {"id": 38, "chinese": "一些员工被鼓励着去打破陈规。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   (注：来源中38题对应的英文主要为学校活动相关词伙，翻译时可灵活处理)\n</details>"}, {"id": 39, "chinese": "由于交通堵塞，上下班的时间变得更长了。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Commuting time\n*   Traffic congestion / traffic jams\n</details>"}, {"id": 40, "chinese": "电脑技能可以运用到学习工作中。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Working lives\n*   Acquire computer skills\n</details>"}]}, {"name": "Set 3 (Q41-Q60)", "start": 41, "end": 60, "questions": [{"id": 41, "chinese": "大部分的环境破坏都可以归咎于人类的活动。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Environmental degradation / destruction\n*   Human activities\n</details>"}, {"id": 42, "chinese": "许多孩子每天接触暴力内容。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Violent content\n</details>"}, {"id": 43, "chinese": "家庭环境被认为是小孩成长最重要的影响因素。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Family environment / home environment\n</details>"}, {"id": 44, "chinese": "随着越来越多的年轻人参加志愿者工作，社区的凝聚力（cohesion）会加强。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Volunteer work\n*   Community cohesion\n</details>"}, {"id": 45, "chinese": "移民有时候被认为是对社会团结的一个威胁。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Social cohesion / national unity\n</details>"}, {"id": 46, "chinese": "没有受过高等教育的年轻人只能找到低技术含量的工作。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Tertiary education qualifications / a college degree\n*   Working in low-skilled jobs / menial jobs\n</details>"}, {"id": 47, "chinese": "一些人不支持转基因食品。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Genetically modified food / genetically engineered food\n</details>"}, {"id": 48, "chinese": "人们竭力设计景点使其符合游客的需要和品味。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Tourist spots / tourist attractions\n*   Cater for tourists' tastes and needs\n</details>"}, {"id": 49, "chinese": "在竞争激烈的社会，有工作的年轻人往往关心职业发展。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Highly competitive society\n*   working adults\n*   Career advancement / career progression\n</details>"}, {"id": 50, "chinese": "审美观是因文化而异的。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Perception of beauty\n*   Differs from culture to culture\n</details>"}, {"id": 51, "chinese": "因为费用的下降，航空业最近几十年发展得很快。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Low-cost carriers / cheap air travel\n*   The airline industry\n*   At an astounding pace\n</details>"}, {"id": 52, "chinese": "动物实验有时候不能够检验出药物的副作用。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Animal experiments / testing\n*   Side effects\n</details>"}, {"id": 53, "chinese": "非法捕杀导致某些动物的灭亡。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Illegal hunting / poaching\n</details>"}, {"id": 54, "chinese": "电脑对人交流技能的影响随着年龄变化。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Communication skills / interpersonal skills\n*   vary across ages\n</details>"}, {"id": 55, "chinese": "很多女孩都不愿意在男人居多的行业里找工作。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Seek employment / pursue a career\n*   Male-dominated world\n</details>"}, {"id": 56, "chinese": "学校的主要功能是给下一代灌输知识。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Impart knowledge\n</details>"}, {"id": 57, "chinese": "艺术不属于学校的主科。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Core subject areas / mandatory subjects\n</details>"}, {"id": 58, "chinese": "因为不够明朗的经济前景，很多公司不可能招聘新的职员。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   The uncertainty about the economic outlook\n</details>"}, {"id": 59, "chinese": "空运可能产生很多温室气体。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Air freight / air transport\n*   Greenhouse gases\n</details>"}, {"id": 60, "chinese": "孩子很可能有行为的问题。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Behavioural problems / poor behavour\n</details>"}]}, {"name": "Set 4 (Q61-Q80)", "start": 61, "end": 80, "questions": [{"id": 61, "chinese": "人口的扩大是大量垃圾产生的原因。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Population expansion / population growth\n*   Accumulation of waste\n</details>"}, {"id": 62, "chinese": "严格的惩罚是减少犯罪率的有效手段。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Stiff punishment / severe/harsh punishment\n*   Reduce crime / deter crime\n</details>"}, {"id": 63, "chinese": "清洁能源的发展可以解决空气污染的问题。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Clean energy / renewable energy resources\n*   Air pollution\n</details>"}, {"id": 64, "chinese": "因为失业率高升，大学生迫于压力而努力学习。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Feel under increasing pressure\n*   Unemployment rate\n</details>"}, {"id": 65, "chinese": "种族歧视仍然很严重。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Racial discrimination\n</details>"}, {"id": 66, "chinese": "死记乘法表并不是提高算术能力的最好方式。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Learning by rote\n*   Improve numeracy / mathematical skills\n</details>"}, {"id": 67, "chinese": "贫穷国家的首要任务是满足人们的基本生存需求。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Deprived countries / underdeveloped countries\n*   Satisfy basic needs\n*   Top priority\n</details>"}, {"id": 68, "chinese": "人工智能对社会的影响依然未知。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Artificial intelligence\n</details>"}, {"id": 69, "chinese": "网络购物已经成为很多人生活中很普通的一部分。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Shopping online\n*   A normal part of everyday life\n</details>"}, {"id": 70, "chinese": "在消费社会里，人们不再满足于生活必需品。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   A consumer society\n*   Bare necessities / Satisfy people’s needs\n</details>"}, {"id": 71, "chinese": "人们不健康的生活方式是他们倾向于依赖科技的结果。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Unhealthy lifestyle\n</details>"}, {"id": 72, "chinese": "贫穷是社区犯罪增多的原因。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Crime wave\n</details>"}, {"id": 73, "chinese": "电动汽车的发明是我们为维护环境所做出的一部分努力。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Electric vehicles\n*   Sustain the environment / preserve the environment\n</details>"}, {"id": 74, "chinese": "送贵重的礼物是中国的习惯。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Lavish gifts / expensive gifts\n</details>"}, {"id": 75, "chinese": "未来几十年我们很难保护语言的多样性。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Linguistic diversity\n*   Coming decades / decades to come\n</details>"}, {"id": 76, "chinese": "随着年龄增长，我们很难和朋友、家人保持联系。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Maintain contact with / keep in touch with\n</details>"}, {"id": 77, "chinese": "免费上大学使得家境不好的学生有同等的上学机会。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Free university education / Equal access to higher education\n*   From less well-off backgrounds / from poor homes\n</details>"}, {"id": 78, "chinese": "很多人觉得自己有必要赶时尚。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Follow fashion\n</details>"}, {"id": 79, "chinese": "经费缩减让很多年轻人很难接受大学教育。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Budget cuts\n*   Receive a college education / attend university\n</details>"}, {"id": 80, "chinese": "有时候，很难去评估人类行为造成的环境代价。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Environmental cost / environmental damage / impact\n</details>"}]}, {"name": "Set 5 (Q81-Q100)", "start": 81, "end": 100, "questions": [{"id": 81, "chinese": "在大城市有一些贫困的社区。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Economically deprived communities\n</details>"}, {"id": 82, "chinese": "按照能力分班和学生的成绩没有明显的联系。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Grouping students by ability\n*   Educational attainment / exam results\n</details>"}, {"id": 83, "chinese": "使用多媒体可以提升学生的注意力，让他们对课程保持兴趣。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Visual aids\n*   Improve concentration / keep students interested/ engaged\n</details>"}, {"id": 84, "chinese": "名人的成功鼓励年轻人努力学习，坚忍不拔。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Show perseverance\n</details>"}, {"id": 85, "chinese": "在发展中国家开设新的分公司可以降低生产成本，产生巨大的利润。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Set up operations / open new branches\n*   Manufacturing cost\n*   Generate huge profit / generate revenue\n</details>"}, {"id": 86, "chinese": "生活方式的轻微变化也能够产生巨大的变化，并且可以减少我们的日常活动对环境的影响。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Lifestyle changes\n*   Make a huge difference / reduce the impact\n</details>"}, {"id": 87, "chinese": "因为没有实习机会，对他们来说提升工作技能是很难的。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Work placements / internships\n*   Improve practical skills / increase hands-on experience\n</details>"}, {"id": 88, "chinese": "即使获得了文凭，大学生也没办法赚到很多钱。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Gain qualifications / obtain a degree\n*   Make a decent living / earn money\n</details>"}, {"id": 89, "chinese": "因为激烈的竞争和技术的迅速发展，现在经营一家公司是一个艰巨的任务。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Run a business\n*   A daunting task / a demanding job\n</details>"}, {"id": 90, "chinese": "事实是，因为机械化的原因，一些工作已经被砍掉。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Make redundant / lose jobs\n</details>"}, {"id": 91, "chinese": "现在很多人选择变得环保和减少能源的使用，事实确实如此。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Go green / environmentally conscious\n</details>"}, {"id": 92, "chinese": "判刑会对年轻人产生伤害，因为犯罪的记录会给他们职业留下阴影。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   A prison sentence / imprisonment\n*   Cast a long shadow on\n</details>"}, {"id": 93, "chinese": "我相信快餐广告和普遍的肥胖有直接的关系。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   A direct link between A and B\n*   Rising levels of obesity / obesity figures\n</details>"}, {"id": 94, "chinese": "将政府的资金用于污染清理工作，这可以创造一个舒适的环境。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Clean-up operation / a clean environment\n</details>"}, {"id": 95, "chinese": "有些广告鼓励消费者买一些自己不需要的东西，应该对其加强管制。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Regulate / tighten the control over / exercise tight control over\n</details>"}, {"id": 96, "chinese": "这有助于提高空气质量，从而降低了得一些疾病的风险，比如呼吸道疾病。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Respiratory diseases\n</details>"}, {"id": 97, "chinese": "当局应该控制这些夸张报道社会问题的新闻。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Censor news / Give an exaggerated account of\n</details>"}, {"id": 98, "chinese": "这就是为什么文员经常有健康问题的原因。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Clerical workers / office workers\n*   Health problems / poor health\n</details>"}, {"id": 99, "chinese": "许多员工愿意在那些可以获得晋升机会的公司工作。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   Get promoted / opportunities for promotions\n</details>"}, {"id": 100, "chinese": "很多年轻人选择在英文国家学习，在那里，他们可以在世界著名的大大学学习。", "hints": "<details>\n<summary>点击查看参考词伙 (Click to reveal)</summary>\n\n*   World famous universities / renowned universities\n*   English-speaking countries\n</details>"}]}];
+    let currentSetIndex = 0;
+
+    function init() {
+        const select = document.getElementById('set-select');
+        practiceSets.forEach((set, index) => {
+            const option = document.createElement('option');
+            option.value = index;
+            option.text = set.name;
+            select.appendChild(option);
+        });
+        renderQuestions();
+    }
+
+    function renderQuestions() {
+        const select = document.getElementById('set-select');
+        currentSetIndex = parseInt(select.value);
+        const set = practiceSets[currentSetIndex];
+        const container = document.getElementById('questions-container');
+        
+        container.innerHTML = '';
+        
+        set.questions.forEach(q => {
+            const card = document.createElement('div');
+            card.className = 'question-card';
+            card.innerHTML = `
+                <div class="q-header">
+                    <span class="q-num">Q${q.id}</span>
+                </div>
+                <div class="chinese-text">
+                    ${q.chinese}
+                </div>
+                 <div class="hints-area">
+                    ${q.hints}
+                </div>
+                <textarea id="answer-${q.id}" placeholder="Type your English translation here..."></textarea>
+            `;
+            container.appendChild(card);
+        });
+        
+        // Restore answers if exists in local storage? (Optional, but good for UX. Let's keep it simple for now)
+        window.scrollTo(0,0);
+    }
+
+    function formatDate(date) {
+        const yyyy = date.getFullYear();
+        const mm = String(date.getMonth() + 1).padStart(2, '0');
+        const dd = String(date.getDate()).padStart(2, '0');
+        return `${yyyy}${mm}${dd}`; // As per user file usage '20251221'
+    }
+
+    function exportMarkdown() {
+        const set = practiceSets[currentSetIndex];
+        const now = new Date();
+        const dateStr = formatDate(now);
+        
+        // Format: 2025-12-21_Set1_Q01-Q20.md  (User request format)
+        // Wait, user used 20251221 in file creation, but requested 2025-12-21 in prompt.
+        // I will follow the explicit request in the prompt: 2025-12-21_Set1_Q01-Q20.md
+        
+        const yyyy = now.getFullYear();
+        const mm = String(now.getMonth() + 1).padStart(2, '0');
+        const dd = String(now.getDate()).padStart(2, '0');
+        const filenameDate = `${yyyy}-${mm}-${dd}`;
+        
+        const setNum = currentSetIndex + 1;
+        const startQ = String(set.start).padStart(2, '0');
+        const endQ = String(set.end).padStart(2, '0');
+        
+        const filename = `${filenameDate}_Set${setNum}_Q${startQ}-Q${endQ}.md`;
+        
+        let content = `# IELTS Writing Practice Set ${setNum} (Q${startQ}-Q${endQ})\n\n> **Date**: ${filenameDate}\n\n`;
+        
+        set.questions.forEach(q => {
+            const answer = document.getElementById(`answer-${q.id}`).value;
+            content += `### Q${q.id}\n`;
+            content += `**中文题目**:\n> ${q.chinese}\n\n`;
+            content += `**词伙提示 (Hints)**:\n${q.hints}\n\n`;
+            content += `**你的回答 (Your Answer)**:\n> ${answer}\n\n`;
+            content += `---\n\n`;
+        });
+        
+        download(filename, content);
+    }
+
+    function download(filename, text) {
+        var element = document.createElement('a');
+        element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+        element.setAttribute('download', filename);
+
+        element.style.display = 'none';
+        document.body.appendChild(element);
+
+        element.click();
+
+        document.body.removeChild(element);
+    }
+
+    window.onload = init;
+</script>
+
+</body>
+</html>
