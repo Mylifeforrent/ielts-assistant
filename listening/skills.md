@@ -1,12 +1,11 @@
-![image-20260117001507516](/Users/macbookair/Library/Application Support/typora-user-images/image-20260117001507516.png)
+![alt text](<截屏2026-01-17 00.14.28.png>)
+- one third, two thirds(两个三分之一就变成复数形式了),
 
-one third, two thirds(两个三分之一就变成复数形式了),
+- 13.87 小数点前面读两位数，小数点后面读个位数。所以读作 thirteen point eight seven。
 
-13.87 小数点前面读两位数，小数点后面读个位数。所以读作 thirteen point eight seven。
+- 113.423 读作 one hundred and thirteen point four two three
 
-113.423 读作 one hundred and thirteen point four two three
-
-quarter是四分之一的意思， 比如 a quarter to eight 这里quarter就是15分钟， a quarter of the class， 这里就是班级1/4的学生数。
+- quarter是四分之一的意思， 比如 a quarter to eight 这里quarter就是15分钟， a quarter of the class， 这里就是班级1/4的学生数。
 ![alt text](image.png)
 
  
@@ -47,3 +46,28 @@ quarter是四分之一的意思， 比如 a quarter to eight 这里quarter就是
 ![alt text](<截屏2026-01-17 21.42.26.png>)
 
 ![alt text](<截屏2026-01-17 21.43.55.png>)
+
+- 7-screen cinema 翻译为7块屏幕的电影院，-连接后面的screen不用变为复数形式，因为前面的7在这里类似于形容词了。
+- 4-liter engine 4升的发动机
+
+![alt text](<截屏2026-01-18 15.56.28.png>)
+![alt text](<截屏2026-01-18 15.57.27.png>)
+人生没有失败，要么成功了，要么收获了教训。
+
+![alt text](<截屏2026-01-18 16.28.30.png>)
+
+- 前门 front door/gate， 后门 back door/entrance/gate, 旁边的门 side door/entrance/gate
+- corner bend 转弯, sharp corner 急弯 
+- path 路线，arrow 箭头， bottom 下面，right,left, top, bottom left, bottom right, top left, top right
+
+- 地图题里面 drive也可以指代 road， practice可以表示诊所，律所, film可以表示薄膜，比如卖水果的 切好的水果上面覆盖的保鲜膜（film gloves 一次性手套），foil 锡纸， plant 类似于工厂的意思=factory， plan 有地图的意思
+
+机考时候会发给你草稿纸，草稿纸上面对照屏幕一起看你标注的方位
+
+![alt text](<截屏2026-01-18 17.14.46.png>)
+- 河上面有可能会画桥，需要注意 bridge, 
+- 标注了东南西北的也有可能说上下左右， 只标注了上下左右的就是基本上说上下左右了
+- past bhe bridge 路过桥而已。 表达经过桥 pass the bridge 语法是错误的，正确的应该是 over the bridge
+- right 地图题目有可能说的是，刚好，正好。比如 that's right at the other side of the castle from the entrance
+
+
