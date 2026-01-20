@@ -69,5 +69,6 @@
 - 标注了东南西北的也有可能说上下左右， 只标注了上下左右的就是基本上说上下左右了
 - past bhe bridge 路过桥而已。 表达经过桥 pass the bridge 语法是错误的，正确的应该是 over the bridge
 - right 地图题目有可能说的是，刚好，正好。比如 that's right at the other side of the castle from the entrance
-
+![alt text](<截屏2026-01-18 18.48.52.png>)
+- 题目是小写，并且加了形容词，那么很有可能就会听到改写词。这个时候做题就需要靠题目的逻辑顺序来做了。
 
