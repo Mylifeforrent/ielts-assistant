@@ -8,11 +8,11 @@
 - quarter是四分之一的意思， 比如 a quarter to eight 这里quarter就是15分钟， a quarter of the class， 这里就是班级1/4的学生数。
 ![alt text](images/image.png)
 
- 
+
 审题技巧1:
-![alt text](images/image-1.png)！
+![alt text](images/image-1.png)
 - 要求只写一个单词， 如果答案是数字， 比如 30， 应该写作 thirty
-- 快速浏览答题的位置前面的一个词语，比如 with，proving 等大概知道答案应该是什么词性
+- 快速浏览答题的位置前面的一个词语，比如 with，providing 等大概知道答案应该是什么词性
 - 特殊人名地名可以留意一下
 - 每一道题目最前面的单词如果没有什么特殊性，就可以忽略，比如这里的好多都是help开头，那就没有特殊性。没有什么帮助
 - 每一道题目都一个特殊符号，比如这里的点，代表每一道题目之间都是并列关系
