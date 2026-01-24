@@ -96,3 +96,15 @@
 ![alt text](images/202601222141.png)
 ![alt text](images/202601222146.png)
 - 小技巧
+
+![alt text](images/image20260124184601.png)
+- 单选题复盘技巧，总结错误点，然后再听
+- 如何定位的，答案是哪个，句音和发音以及翻译都可以
+![alt text](images/image-20260124184701.png)
+- 这道题目之所以选择b，不选择c而是因为c里面没有合适的对应的改写。而d里面是有对应的改写的，比如teenagers和parents，以及一堆的disagreements和tension，都是说的家庭--》 families
+- 也就是没有找到替换词的时候，不要过度去解读。
+![alt text](images/image-20260124184702.png)
+![alt text](images/image202601241850.png)
+- 类似这种需要明白，答案是确定的时候，你必须听到什么选什么。而不是说听到了就不选
+
+
