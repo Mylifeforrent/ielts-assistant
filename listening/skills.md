@@ -1,42 +1,41 @@
 ![alt text](images/%E6%88%AA%E5%B1%8F2026-01-17%2000.14.28.png)
+
 - one third, two thirds(两个三分之一就变成复数形式了),
-
 - 13.87 小数点前面读两位数，小数点后面读个位数。所以读作 thirteen point eight seven。
-
 - 113.423 读作 one hundred and thirteen point four two three
-
 - quarter是四分之一的意思， 比如 a quarter to eight 这里quarter就是15分钟， a quarter of the class， 这里就是班级1/4的学生数。
-![alt text](images/image.png)
-
+  ![alt text](images/image.png)
 
 审题技巧1:
 ![alt text](images/image-1.png)
+
 - 要求只写一个单词， 如果答案是数字， 比如 30， 应该写作 thirty
 - 快速浏览答题的位置前面的一个词语，比如 with，providing 等大概知道答案应该是什么词性
 - 特殊人名地名可以留意一下
 - 每一道题目最前面的单词如果没有什么特殊性，就可以忽略，比如这里的好多都是help开头，那就没有特殊性。没有什么帮助
 - 每一道题目都一个特殊符号，比如这里的点，代表每一道题目之间都是并列关系
-![alt text](images/image-2.png)
-![alt text](images/image-3.png)
-![alt text](images/image-4.png)
+  ![alt text](images/image-2.png)
+  ![alt text](images/image-3.png)
+  ![alt text](images/image-4.png)
 - 介词也不会随便修改，可以帮助我们判断答案
 
 ![alt text](images/image-5.png)
 ![alt text](images/image-6.png)
 ![alt text](images/image-7.png)
 ![alt text](images/image-9.png)
+
 - 答案和原文也有类似阅读里面的单词改写
 - 还有一些关键词 比如 so, one thing, another thing， but... 这些关键的词语后面的词语很重要
 - 发音，逻辑，改写 三点主要的是发音。发音准确了就更容易做出来
-![alt text](images/image-10.png)
-![alt text](images/image-11.png)
-![alt text](images/image-12.png)
-
+  ![alt text](images/image-10.png)
+  ![alt text](images/image-11.png)
+  ![alt text](images/image-12.png)
 
 电话号码自己要可以快速流畅度出来，听到一半就知道再说什么。
 网购平台单号都可以自己去读。
 
 ![alt text](images/image-13.png)
+
 - 记住这个技巧，听到million就是两个逗号， thousand 就是一个逗号。billion就是3个逗号。
 - 比如4，627，862，646就读作 four billion six hundred and twenty seven million eight hundred and sixty two thousand six hundred and forty six。
 - 100,000 读作 one hundred thousand
@@ -59,17 +58,17 @@
 - 前门 front door/gate， 后门 back door/entrance/gate, 旁边的门 side door/entrance/gate
 - corner bend 转弯, sharp corner 急弯 
 - path 路线，arrow 箭头， bottom 下面，right,left, top, bottom left, bottom right, top left, top right
-
 - 地图题里面 drive也可以指代 road， practice可以表示诊所，律所, film可以表示薄膜，比如卖水果的 切好的水果上面覆盖的保鲜膜（film gloves 一次性手套），foil 锡纸， plant 类似于工厂的意思=factory， plan 有地图的意思
 
 机考时候会发给你草稿纸，草稿纸上面对照屏幕一起看你标注的方位
 
 ![alt text](images/%E6%88%AA%E5%B1%8F2026-01-18%2017.14.46.png)
+
 - 河上面有可能会画桥，需要注意 bridge, 
 - 标注了东南西北的也有可能说上下左右， 只标注了上下左右的就是基本上说上下左右了
-- past bhe bridge 路过桥而已。 表达经过桥 pass the bridge 语法是错误的，正确的应该是 over the bridge
+- past the bridge 路过桥而已。 表达经过桥 pass the bridge 语法是错误的，正确的应该是 over the bridge
 - right 地图题目有可能说的是，刚好，正好。比如 that's right at the other side of the castle from the entrance
-![alt text](images/%E6%88%AA%E5%B1%8F2026-01-18%2018.48.52.png)
+  ![alt text](images/%E6%88%AA%E5%B1%8F2026-01-18%2018.48.52.png)
 - 题目是小写，并且加了形容词，那么很有可能就会听到改写词。这个时候做题就需要靠题目的逻辑顺序来做了。
 
 ![alt text](images/%E6%88%AA%E5%B1%8F2026-01-21%2022.10.42.png)
@@ -77,10 +76,10 @@
 - 要注意配对题的坑，这里尤其需要注意上下对比，比如equipment，tools就有可能故意给你听到。但是其实不是正确答案。所以一定要注意上下对比。
 - 给你听到的基本就不是正确答案， 而是给你改写过
 - 所以听不清楚细节的时候，宁愿选择改写的答案，比如你听到了equipment，你就选另一个tools，因为他很有可能是改写过的答案
-比如下面的就是改写了
+  比如下面的就是改写了
 - 根据语法还可以排除很多错误选项
 - 注意 so, then, but之类的词语， 后面有答案。尽管你可以没有听清楚
-![alt text](images/image202601212217.png)
+  ![alt text](images/image202601212217.png)
 
 
 
@@ -92,22 +91,24 @@
 ![alt text](images/images-2026-01-22-21.33.17.png)
 
 - 去这个网站练习单词改写
-![alt text](images/202601222140.png)
-![alt text](images/202601222141.png)
-![alt text](images/202601222146.png)
+  ![alt text](images/202601222140.png)
+  ![alt text](images/202601222141.png)
+  ![alt text](images/202601222146.png)
 - 小技巧
 
 ![alt text](images/image20260124184601.png)
+
 - 单选题复盘技巧，总结错误点，然后再听
 - 如何定位的，答案是哪个，句音和发音以及翻译都可以
-![alt text](images/image-20260124184701.png)
+  ![alt text](images/image-20260124184701.png)
 - 这道题目之所以选择b，不选择c而是因为c里面没有合适的对应的改写。而d里面是有对应的改写的，比如teenagers和parents，以及一堆的disagreements和tension，都是说的家庭--》 families
 - 也就是没有找到替换词的时候，不要过度去解读。
-![alt text](images/image-20260124184702.png)
-![alt text](images/image202601241850.png)
+  ![alt text](images/image-20260124184702.png)
+  ![alt text](images/image202601241850.png)
 - 类似这种需要明白，答案是确定的时候，你必须听到什么选什么。而不是说听到了就不选
 
 ## 考前细节
+
 - 维持常态，睡觉，饮食
 - 平稳发挥，深呼吸调整
 - 舒服松弛，穿衣松弛，带一件外套
@@ -119,13 +120,15 @@
 - 少吃碳水，比如馒头，米饭。容易犯困。最多吃一个肉包子之类的。红薯应该可以，到时候问ai
 - 提前三个月报名很正常，所以提前报名
 
-
 ![alt text](images/image202601242259.png)
+
 - 进入听力部分时候，快速过一遍40题目
 - 紧接着聚焦第一部分的题目
 
 ![alt text](images/image-202601242300.png)
+
 - 要学会竖向比较，做减法。忽略同样含义的词，精准定位差异化的词语
 
 ![alt text](images/image202601250004.png)
+
 - 复习要点
