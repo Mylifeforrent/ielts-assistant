@@ -34,6 +34,7 @@
 | **By comparison** | *The UK consumes 30% of energy. **By comparison**, the US consumes 50%.* | **相比之下**。侧重于数据的比较。 |
 | **On the other hand** | *Living in a city is convenient. **On the other hand**, it is expensive.* | **另一方面**。用于对比同一事物的两个方面。 |
 | **However** | *The plan was good. **However**, it was too expensive.* | **然而**。最通用的转折词。 |
+| **Nevertheless / Nonetheless** | *The weather was bad. **Nevertheless**, we went out.* | **尽管如此/然而**。比 however 更正式，语气更强。 |
 
 ### 1.3 Exemplification (举例)
 用于提供具体的例子来支持观点。
@@ -60,6 +61,8 @@
 | :--- | :--- | :--- |
 | **Thereby doing** | *He signed the contract, **thereby accepting** the terms.* | **从而……**。后面接 -ing 形式，表示结果。 |
 | **Thus doing** | *The company reduced costs, **thus increasing** profits.* | **从而……**。非常正式，接 -ing。 |
+| **Consequently / As a consequence** | *He didn't study. **Consequently**, he failed.* | **因此/结果是**。引出必然或逻辑上的结果。 |
+| **As a result** | *Demand fell. **As a result**, prices dropped.* | **因此**。非常通用。 |
 
 ### 1.6 Prediction (预测)
 用于 Task 1 预测未来的数据，或 Task 2 谈论未来影响。
@@ -124,11 +127,14 @@
 *   **Significant / Significantly**: *...a significant increase.* (显著的)
 *   **Remarkable / Remarkably**: *...remarkably stable.* (值得注意的)
 *   **Marked / Markedly**: *...a marked difference.* (明显的)
+*   **Substantial / Substantially**: *...a substantial amount.* (大量的/实质性的)
+*   **Drastic / Drastically**: *...changed drastically.* (极为剧烈的/猛烈的)
 
 #### Degree of Change (幅度) - 小
 *   **Modest / Modestly**: *...a modest rise.* (适度的)
 *   **Slight / Slightly**: *...decreased slightly.* (轻微地)
 *   **Marginal / Marginally**: *...a marginal gain.* (微不足道的)
+*   **Negligible**: *...a negligible impact.* (可忽略不计的/微乎其微的)
 
 #### Speed of Change (速度)
 *   **Steady / Steadily**: *...grew steadily.* (稳步的)

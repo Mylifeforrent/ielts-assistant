@@ -46,7 +46,7 @@
 ## ⚖️ Task 2: Discuss Advantages & Disadvantages / 利弊分析类
 
 **Introduction:**
-> **In recent years/decades,** the issue of [Topic] has sparked considerable debate. While some view it as a positive development, others concern about its potential drawbacks. This essay will **scrutinize** both the benefits and distinct disadvantages of this trend.
+> **In recent years/decades,** the issue of [Topic] has sparked considerable debate. While some view it as a positive development, others **are concerned about** its potential drawbacks. This essay will **scrutinize** both the benefits and distinct disadvantages of this trend.
 > *（优化：替换了 "Nowadays... noticeable phenomenon"）*
 
 **Body 1 (Advantages):**
@@ -66,7 +66,7 @@
 ## 🆚 Task 2: Agree or Disagree / 是否同意类
 
 **Introduction:**
-> The question of whether [Topic] **has aroused intense discussion**. Some argue that [Opinion A], whereas others maintain that [Opinion B]. **From my perspective,** I firmly **agree/disagree** with the notion that [Your Stance].
+> The issue of [Topic] **has aroused intense discussion**. *(Or: The question of whether [Complete sentence, e.g., university education should be free] ...)* Some argue that [Opinion A], whereas others maintain that [Opinion B]. **From my perspective,** I firmly **agree/disagree** with the notion that [Your Stance].
 
 **Body 1 (Main Reason 1):**
 > **Firstly,** one of the primary reasons for my stance is that [Reason 1].

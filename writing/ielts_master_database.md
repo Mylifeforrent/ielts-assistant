@@ -182,6 +182,11 @@
 *   **Unemployment rate soaring**: 失业率飙升.
 > **🧠 记忆口诀**: **“没钱(Poverty) 没活(Unemployment) 活受罪(Degrade standards)”**。
 
+### 🔗 Logic Flows (分步论证)
+
+#### 1. Economic Growth vs Environmental Protection (发展经济 vs 保护环境)
+> **Logic**: Prioritize economic growth (优先发展经济) -> Industrial expansion (工业扩张) -> Over-exploitation of resources (过度开采资源) -> Environmental degradation (导致环境恶化) -> Threaten sustainable development (威胁可持续发展).
+
 ---
 
 ## 🏮 Topic 7: Culture / 文化类
@@ -193,6 +198,11 @@
 *   **Cultural assimilation / Homogenisation**: 文化同化/趋同 (坏处).
 *   **Loss of cultural heritage**: 文化遗产流失.
 > **🧠 记忆口诀**: **“内(Identity) 外(Stereotypes) 新(Innovation)”** vs **“灭绝(Loss)”**。
+
+### 🔗 Logic Flows (分步论证)
+
+#### 1. Cultural Globalization (文化全球化)
+> **Logic**: Global media and internet (全球互联网普及) -> Spread of dominant cultures (强势文化传播) -> Cultural assimilation (文化同化) -> Loss of cultural heritage (传统文化流失) -> Decrease in cultural diversity (文化多样性减少).
 
 ---
 
