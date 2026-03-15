@@ -13,27 +13,33 @@
 ### 💡 Idea Bank (素材清单)
 
 #### 🟢 Benefits & Responsibilities (职责与好处)
-*   **Undertake societal responsibilities**: 承担社会责任.
+*   **Undertake social responsibilities**: 承担社会责任.
 *   **Invest in infrastructure**: 投资基础设施 (Schools, Roads).
-*   **Satisfy spiritual and cultural needs**: 满足精神文化需求.
+*   **Satisfy spiritual and cultural needs**: 满足精神文化需求. 
 *   **Ensure national security**: 保障国家安全.
 *   **Boost economy and education**: 促进经济和教育发展.
 *   **Maintain social stability**: 维护社会稳定.
-> **🧠 记忆口诀 (职责偏)**: **“稳(Stability) 权(Security) 财(Economy) 责(Responsibility)”** —— 政府要稳住政权，搞好经济，并在基建文化上尽责。
+> **🧠 记忆口诀 (职责偏)**: ***稳全财责基文***
+>
+> **“稳(Stability，社会稳定) 全(Security，安全) 财(Economy，经济+教育) 责(Responsibility，社会责任)基(Infrastructure，基建)文(Culture，文化)”** —— 政府要稳住政权，搞好经济，并在基建文化上尽责。
 
 #### 🔴 Problems (政府面临的问题)
 *   **Endure financial burden**: 承受财政负担.
 *   **High rate of corruption**: 高腐败率.
 *   **Lack of effective censorship**: 缺乏有效监管.
 *   **Impose political intention**: 强加政治意图.
-> **🧠 记忆口诀 (坏处篇)**: **“没钱(Burden) 坏人(Corruption) 乱管(Censorship)”**。
+> **🧠 记忆口诀 (坏处篇)**: ***没钱坏人强行政治乱管***
+>
+> **“没钱(Burden) 腐败的坏人(Corruption) 强行政治乱管(impose intention，Censorship)”**。
 
 #### 🔧 Measures (解决措施)
 *   **Levy taxes & Issue national bonds**: 征税与发行国债.
 *   **Enact legislation and regulations**: 制定法律法规.
 *   **Improve moral standards**: 提高道德标准.
 *   **Broaden channels to raise funds**: 拓宽融资渠道.
-> **🧠 记忆口诀 (措施篇)**: **“搞钱(Tax) 立规(Laws) 教化(Moral)”**。
+> **🧠 记忆口诀 (措施篇)**: ***融资征税立规教化***
+>
+> **“融资征税(Funds，Tax) 立规(Laws) 教化(Moral)”**。
 
 ### 🔗 Logic Flows (分步论证)
 
@@ -56,7 +62,9 @@
 *   **Develop renewable energy**: 开发可再生能源.
 *   **Safeguard biodiversity**: 保护生物多样性.
 *   **Conserve natural resources**: 节约自然资源.
-> **🧠 记忆口诀**: **“节流(Conserve) 开源(Renewable) 保命(Biodiversity)”**。
+> **🧠 记忆口诀**:***节流开源可持续多样性***
+>
+>  **“节流(Conserve,自然资源，能源) 开源(Renewable，可再生) 可持续(sustainable） 多样性(Biodiversity，生物多样性)”**。
 
 #### 🔴 Environmental Hazards (环境危害)
 *   **Exacerbate environmental deterioration**: 加剧环境恶化.
@@ -64,7 +72,9 @@
 *   **Endanger biodiversity**: 威胁生物多样性.
 *   **Lead to desertification and soil erosion**: 导致荒漠化和水土流失.
 *   **Drain energy resources**: 耗尽能源资源.
-> **🧠 记忆口诀**: **“3D危机”**: **Deterioration** (恶化), **Desertification** (沙漠化), **Drain** (耗尽).
+> **🧠 记忆口诀**: ***环境气候沙漠耗能威生***
+>
+> **“3D危机，环境气候沙漠耗尽能源威胁生物多样性”**: **Deterioration** (恶化), **Desertification** (沙漠化), **Drain** (耗尽).
 
 ### 🔗 Logic Flows (分步论证)
 
@@ -86,7 +96,11 @@
 *   **Nurture comprehensive skills**: 培养综合能力.
 *   **Meet industry demands**: 满足行业需求.
 *   **Improve career prospects**: 提升就业前景.
-> **🧠 记忆口诀**: **“脑(Thinking) + 手(Skills/Industry) + 心(Moral)”** —— 也就是德智体美劳。
+> **🧠 记忆口诀**: 思维修养有能力，行业用人有前景
+>
+> 思维(critical thinking)修养(moral standards)有能力(comprehensive skills)，行业(industry)用人有前景（prospects）
+>
+> **“脑(Thinking) + 手(Skills/Industry) + 心(Moral)”** —— 也就是德智体美劳。
 
 #### 🔴 Education Issues (教育问题)
 *   **Exam-oriented education (Cramming)**: 应试教育/填鸭式教育.
@@ -94,7 +108,7 @@
 *   **Lack of social practice**: 缺乏社会实践.
 *   **Limit personal thought**: 限制个人思想.
 *   **Impose financial pressure on families**: 给家庭带来经济压力.
-> **🧠 记忆口诀**: **“死读书(Cramming/No practice) + 费钱(Financial) + 变傻(Stifle creativity)”**。
+> **🧠 记忆口诀**: **“死读书(Cramming/No practice) + 费钱(Financial) + 变傻(Stifle creativity，personal thoughts)”**。
 
 ### 🔗 Logic Flows (分步论证)
 
@@ -116,7 +130,7 @@
 *   **Promote cross-regional exchanges**: 促进跨地域交流.
 *   **Maintain the public's right to know**: 维护公众知情权 (Media).
 *   **Expose social issues**: 曝光社会问题 (Media).
-> **🧠 记忆口诀**: **“快(Efficiency) 广(Exchange) 真(Right to know)”**。
+> **🧠 记忆口诀**: **“快(Efficiency) 广(Exchange) 真(Right to know)曝(social issues)利(convenience)”**。
 
 #### 🔴 Tech Harms & Media Cons (坏处)
 *   **Result in unemployment (Automation)**: 导致失业 (自动化).
@@ -125,7 +139,7 @@
 *   **Fabricate and exaggerate facts**: 捏造和夸大事实.
 *   **Trigger social panic**: 引发社会恐慌.
 *   **Misleading the public**: 误导大众.
-> **🧠 记忆口诀**: **“懒宅惨(Tech)” + “假大空(Media)”** —— 科技让人变懒变宅，媒体搞假新闻吓人。
+> **🧠 记忆口诀**: **“懒宅惨(Tech，太懒容易被侵犯privacy，automation导致失业)” + “假大空(Media，诈骗，大众，夸大，恐慌)”** —— 科技让人变懒变宅，媒体搞假新闻吓人。
 
 ### 🔗 Logic Flows (分步论证)
 
@@ -144,7 +158,7 @@
 *   **Promote social fairness and justice**: 促进公平正义.
 *   **Decrease the crime rate**: 降低犯罪率.
 *   **Enhance social cohesion**: 增强社会凝聚力.
-> **🧠 记忆口诀**: **“扶弱(Vulnerable) 均富(Gap) 团结(Cohesion)”**。
+> **🧠 记忆口诀**: **“扶弱(Vulnerable，弱势群体，犯罪) 均富(Gap，贫富差距，公平) 团结(Cohesion)”**。
 
 #### 🔴 Social Problems & Crime (问题)
 *   **Widening wealth gap**: 贫富差距扩大.
