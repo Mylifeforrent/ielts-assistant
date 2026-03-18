@@ -166,7 +166,7 @@
 *   **Aging population**: 人口老龄化.
 *   **High recidivism rate**: 高再犯率.
 *   **Impede fair competition**: 阻碍公平竞争.
-> **🧠 记忆口诀**: **“不公(Inequality) 变老(Aging) 难民(Refugees)”**。
+> **🧠 记忆口诀**: **“不公(Inequality,贫富差距，公平竞争) 变老(Aging，老龄化) 难民(Refugees 社会阶层不平等，犯罪率)”**。
 
 ### 🔗 Logic Flows (分步论证)
 
@@ -186,7 +186,7 @@
 *   **Enhance social productivity**: 提高社会生产力.
 *   **Lift people out of poverty**: 帮助脱贫.
 *   **Improve the quality of life**: 提高生活质量.
-> **🧠 记忆口诀**: **“钱多(Economy) 活多(Jobs) 生活好(Quality)”**。
+> **🧠 记忆口诀**: **“钱多(Economy，经济发展) 活多(Jobs，就业机会，生产力) 生活好(Quality，脱贫，生活质量)”**。
 
 #### 🔴 Economic Recession (衰退)
 *   **Economic recession / Downturn**: 经济衰退.
@@ -194,7 +194,7 @@
 *   **Lead to poverty and inequality**: 导致贫困和不平等.
 *   **Degrade living standards**: 生活水平下降.
 *   **Unemployment rate soaring**: 失业率飙升.
-> **🧠 记忆口诀**: **“没钱(Poverty) 没活(Unemployment) 活受罪(Degrade standards)”**。
+> **🧠 记忆口诀**: **“钱少(经济衰退，经济负担) 活少(Unemployment，失业) 生活差(Degrade standards，贫困，生活水平下降)”**。
 
 ### 🔗 Logic Flows (分步论证)
 
@@ -234,3 +234,27 @@
 
 #### 1. Obesity Solutions (解决肥胖)
 > **Logic**: Tax junk food (征税) -> Increase price (涨价) -> Reduce consumption (少吃) -> Subsidize healthy food (补贴健康食品) -> Promote exercise (运动).
+
+
+
+
+
+
+
+政治（稳全财责基文，没钱坏人强行政治乱管，融资征税立规教化），
+
+经济（钱多活多生活好，钱少活少，生活差），
+
+文化（内外新灭绝），
+
+社会（扶弱均富团结，不公变老难民），
+
+
+
+教育（思维修养有能力，行业用人有前景。死读书费钱变傻），
+
+环境（节流开源可持续多样性，环境气候沙漠耗能威生），
+
+科技（快广真曝利，懒宅惨假大空），
+
+健康（忙累病胖）
