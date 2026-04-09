@@ -61,7 +61,7 @@
 | :--- | :--- | :--- |
 | **Thereby doing** | *He signed the contract, **thereby accepting** the terms.* | **从而……**。后面接 -ing 形式，表示结果。 |
 | **Thus doing** | *The company reduced costs, **thus increasing** profits.* | **从而……**。非常正式，接 -ing。 |
-| **Consequently / As a consequence** | *He didn't study. **Consequently**, he failed.* | **因此/结果是**。引出必然或逻辑上的结果。 |
+| **Consequently / As a consequence** | *He didn't study. **Consequently**, he failed.* | **因此/结果是**。引出必然或逻辑上的结果。Consequently侧重因果，Subsequently侧重时间顺序 |
 | **As a result** | *Demand fell. **As a result**, prices dropped.* | **因此**。非常通用。 |
 
 ### 1.6 Prediction (预测)
@@ -105,6 +105,7 @@
 *   **Decline**: *Profits declined last year.* (衰退，下降)
 *   **Fall**: *The price fell by $10.* (下跌)
 *   **Dip**: *Sales dipped briefly before recovering.* (微跌，通常指暂时性的)
+*   Slump:暴跌
 
 #### Stability (保持不变/平稳)
 *   **Stood at**: *The population **stood at** 2 million in 1990.* (位于/处于...数值)
@@ -131,7 +132,7 @@
 *   **Drastic / Drastically**: *...changed drastically.* (极为剧烈的/猛烈的)
 
 #### Degree of Change (幅度) - 小
-*   **Modest / Modestly**: *...a modest rise.* (适度的)
+*   **Modest / Modestly**: *...a modest rise.* (适度的/谦虚的, moderate 适度，温和，主持，mild 温和，轻微)
 *   **Slight / Slightly**: *...decreased slightly.* (轻微地)
 *   **Marginal / Marginally**: *...a marginal gain.* (微不足道的)
 *   **Negligible**: *...a negligible impact.* (可忽略不计的/微乎其微的)

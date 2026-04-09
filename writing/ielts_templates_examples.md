@@ -22,7 +22,7 @@ The two maps **illustrate** the developments that have taken place in a particul
 
 **Furthermore**, the **village centre** has been **enlarged** by adding **a shopping mall and a car park**, which drastically reduced the size of **the original park and playground**.
 
-**Finally,** it is worth noting(值得注意的是) that only **the river running through the southern edge** and **the old church on the hill** have remained **largely unchanged** over the period, although **the church** was slightly renovated.
+**Finally,** it is worth noting(值得注意的是 注意是这里是noting, 可以理解为notice的动词形式) that only **the river running through the southern edge** and **the old church on the hill** have remained **largely unchanged** over the period, although **the church** was slightly renovated.
 
 > 📝 **技巧解析:**
 > - "illustrate" 替代了 "show"，更学术
