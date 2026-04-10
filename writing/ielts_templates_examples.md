@@ -78,8 +78,20 @@ The diagram **delineates** the process of producing **olive oil**.
 
 > 📝 **技巧解析:**
 > - "scrutinize" 表示"仔细审视"，比 "discuss" 更有深度
+> - Compel 迫使，使不得不。compelling benefits 令人信服的益处，引人注目的益处
 > - "In the absence of proper regulation" 是高分条件表达
 > - 结论段简洁回顾双方观点，不引入新论点
+> - On the one hand, on the other hand 使用场景：表达一件事情的利弊，两种对立/不同的看法，客观分析问题 不极端站队
+>
+> 第一段: In recent years - sparked debate - positive development- potential drawbacks - scrutinize benefits and disadvantages
+>
+> 第二段: On the one hand - compelling benefits - primarily, one significant advantage - Secondly, another merit（价值，有点）
+>
+> 第三段：On the other hand - despite the upsides, there are potential pitfalls - One major concern - Another potential downside
+>
+> 第四段：In conclusion - presents both opportunities and challenges - while it offers xxx, it also carries risks such as xxx - Therefore, it is essential to weigh both sides carefully
+>
+> 火花优劣两手好坏搞平衡
 
 ---
 
@@ -106,6 +118,19 @@ The issue of **whether university education should be free** **has aroused inten
 > - Body 3 的让步段 (Admittedly...) 展现批判性思维，是冲 7+ 的关键
 > - "holds water" 是地道表达，意为"站得住脚"
 > - 结论段不引入新论点，只总结前文核心理由
+> - Take xx as a case in point = take xxx for example
+>
+> 第一段：the issue of xxx aroused intense discussion - some argue that xx, whereas others maintain that xxx - from my perspective, I firmly agree with the notion that xxx
+>
+> 第二段：Firstly, one of the primary reasons for my stance(立场) is that xx. Explanation: This means that xxx(详细解释). Example: xxx. This clearly demonstrates that xxx
+>
+> 第三段：Furthermore, another significant factor contributing to my view is xx. Elaboration(详细阐述): It is generally acknowledged that xxx. Therefore, xxx
+>
+> 第四段: Admittedly, opponents may argue that xxx. To some extent, this argument holds water(站得住脚). However, it overlooks the fact that xxx. Thus, this does not undermine(侵蚀xx的基础，在xx下面挖水井就是寝室人家的地基嘛) my overall position.
+>
+> 第五段：In conclusion, although there are diverging(分散的/分歧的) views on xxx, I remain convinced that xxx. The reason outlined above, particularly xxx, justify this viewpoint.
+>
+> 激烈讨论立场因素尽管反对不动摇
 
 ---
 
