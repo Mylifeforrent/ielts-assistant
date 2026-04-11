@@ -31,6 +31,7 @@ The two maps **illustrate** the developments that have taken place in a particul
 > - **总体变化抽象概括和描述： illustrate - urbanized - noticeable **
 > - **多角度总结变化（location, size）to begin with - further more**
 > - **总结没怎么变化的地方（river, church）：Finally**
+> - **口诀：抽象多角度没变化**
 
 ---
 
@@ -62,6 +63,7 @@ The diagram **delineates** the process of producing **olive oil**.
 > - **概括大体步骤：stages, commencing with and culminating in**
 > - **概括大体流程：linear/complex system**
 > - **第一阶段，第二阶段，最终阶段: first stage, subsequently. Following this. During the final stage**
+> - **口诀：改写步骤流程分阶段**
 
 ---
 
@@ -73,7 +75,7 @@ The diagram **delineates** the process of producing **olive oil**.
 
 ### 范文
 
-**In recent years,** the issue of **remote working** has sparked considerable debate. While some view it as a positive development, others **are concerned about** its potential drawbacks. This essay will **scrutinize** both the benefits and distinct disadvantages of this trend.
+**In recent years,** the issue of **remote working** has sparked considerable（相当大的，重要的） debate. While some view it as a positive development, others **are concerned about** its potential drawbacks. This essay will **scrutinize** both the benefits and distinct disadvantages of this trend.
 
 **On the one hand,** there are several compelling benefits to **working from home**. **Primarily,** one significant advantage is that **employees can save a considerable amount of time and money by eliminating the daily commute**. **For instance,** **a worker who previously spent two hours commuting each day could redirect that time to exercise, family, or professional development**. **Secondly,** another merit is that **remote work provides greater flexibility in managing one's schedule**, which **facilitates** **a healthier work-life balance**.
 
@@ -88,15 +90,15 @@ The diagram **delineates** the process of producing **olive oil**.
 > - 结论段简洁回顾双方观点，不引入新论点
 > - On the one hand, on the other hand 使用场景：表达一件事情的利弊，两种对立/不同的看法，客观分析问题 不极端站队
 >
-> 第一段: In recent years - sparked debate - positive development- potential drawbacks - scrutinize benefits and disadvantages
+> **第一段，开场：debate 有好有坏，仔细审视。 In recent years - sparked debate - positive development- potential drawbacks - scrutinize benefits and disadvantages**
 >
-> 第二段: On the one hand - compelling benefits - primarily, one significant advantage - Secondly, another merit（价值，有点）
+> **第二段，好处 On the one hand - compelling benefits - primarily, one significant advantage - Secondly, another merit（价值，有点）**
 >
-> 第三段：On the other hand - despite the upsides, there are potential pitfalls - One major concern - Another potential downside
+> **第三段，缺点 On the other hand - despite the upsides, there are potential pitfalls - One major concern - Another potential downside**
 >
-> 第四段：In conclusion - presents both opportunities and challenges - while it offers xxx, it also carries risks such as xxx - Therefore, it is essential to weigh both sides carefully
+> **第四段：总结，In conclusion - presents both opportunities and challenges - while it offers xxx, it also carries risks such as xxx - Therefore, it is essential to weigh both sides carefully**
 >
-> 火花优劣两手好坏搞平衡
+> **口诀：debate好坏总结**
 
 ---
 
@@ -135,7 +137,7 @@ The issue of **whether university education should be free** **has aroused inten
 >
 > 第五段：In conclusion, although there are diverging(分散的/分歧的) views on xxx, I remain convinced that xxx. The reason outlined above, particularly xxx, justify this viewpoint.
 >
-> 激烈讨论立场因素尽管反对不动摇
+> **口诀：激烈讨论立场因素尽管反对不动摇**
 
 ---
 
