@@ -28,7 +28,9 @@ The two maps **illustrate** the developments that have taken place in a particul
 > - "illustrate" 替代了 "show"，更学术
 > - "at the expense of green areas" 是高分表达，意为"以绿地为代价"
 > - 注意方位词的灵活使用：north, southern edge, on the hill
-> - **illustrate 开场白，overall 说大改，这拆那建讲变化，unchanged 结尾最自在。**
+> - **总体变化抽象概括和描述： illustrate - urbanized - noticeable **
+> - **多角度总结变化（location, size）to begin with - further more**
+> - **总结没怎么变化的地方（river, church）：Finally**
 
 ---
 
@@ -56,7 +58,10 @@ The diagram **delineates** the process of producing **olive oil**.
 > - "delineates" 比 "shows" 更高级，意为"描绘/勾勒"
 > - "commencing with... culminating in..." 是描述流程起止的经典搭配
 > - 被动语态 (are picked, are washed, are crushed) 是流程图描述的标配
-> - **delineate 开门见山描流程，数好阶段排成线，commence 开头 culminate 收尾，subsequently 一步一步往前赶。**
+> - **改写题目： delineate xx**
+> - **概括大体步骤：stages, commencing with and culminating in**
+> - **概括大体流程：linear/complex system**
+> - **第一阶段，第二阶段，最终阶段: first stage, subsequently. Following this. During the final stage**
 
 ---
 

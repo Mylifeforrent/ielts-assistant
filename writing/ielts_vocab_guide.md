@@ -69,7 +69,7 @@
 
 | Word/Phrase | Example Sentence | Meaning & Usage |
 | :--- | :--- | :--- |
-| **Projected** | *Sales are **projected** to rise by 20% next year.* | **预计**。常用于数据预测。 |
+| **Projected** | *Sales are **projected** to rise by 20% next year.* （the next year表示某一个具体年份后的下一年，He graduated in 2020. **The next year**, he found a job.） | **预计**。常用于数据预测。 |
 | **Predicted** | *It is **predicted** that the population will decrease.* | **预测**。 |
 | **Likely** | *It is **likely** to rain tomorrow.* | **可能**。 |
 
